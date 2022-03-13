@@ -1,0 +1,284 @@
+:root {
+    --backgrond: #000;
+    --text-color: #FFF;
+    --button: #8257E5;
+    --border: #29292E;
+    --border-menu-mobile: #A8A8B3;
+    --text-color-menu-mobile: #E1E1E6;
+}
+
+body {
+    position: absolute;
+    width: 1360px;
+    height: 768px;
+    left: 0px;
+    top: 0px;
+    
+    background: #000000;
+}
+
+.container .header {
+    position: absolute;
+    width: 918px;
+    height: 50px;
+    left: 280px;
+    top: 50px;
+}
+
+.container .header header .logo a img {
+    position: absolute;
+    width: 43.06px;
+    height: 50px;
+    left: 280px;
+    top: 35px;
+
+    z-index: 1;
+}
+
+.container .header header nav .menus {
+    position: absolute;
+    width: 431.35px;
+    height: 19px;
+    left: 464px;
+    top: 65px;
+
+    margin-left: -30rem;
+    margin-top: -5rem;
+}
+
+.container .header header nav .menus #home {
+    position: absolute;
+    width: 43.24px;
+    height: 19px;
+    left: 464px;
+    top: 65px;
+
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+
+    text-decoration: none;
+}
+
+.container .header header nav .menus #menu {
+    position: absolute;
+    width: 41.08px;
+    height: 19px;
+    left: 539.68px;
+    top: 65px;
+
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+
+    text-decoration: none;
+
+}
+
+.container .header header nav .menus #rewards {
+    position: absolute;
+    width: 103.78px;
+    height: 19px;
+    left: 613.19px;
+    top: 65px;
+    
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    
+    color: #FFFFFF;
+
+    text-decoration: none;
+}
+
+.container .header header nav .menus #gift-cards {
+    position: absolute;
+    width: 74.59px;
+    height: 19px;
+    left: 749.41px;
+    top: 65px;
+    
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    
+    color: #FFFFFF;
+
+    text-decoration: none;
+}
+
+.container .header header nav .menus #stores {
+    position: absolute;
+    width: 38.92px;
+    height: 19px;
+    left: 856.43px;
+    top: 65px;
+    
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    
+    color: #FFFFFF;
+
+    text-decoration: none;
+    
+}
+
+.container .header header nav .btn button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 38px;
+    
+    position: absolute;
+    width: 172px;
+    height: 37px;
+    left: 1000px;
+    top: 43px;
+    
+    border: 1px solid #8257E5;
+    box-sizing: border-box;
+    border-radius: 6px;
+
+    background: none;
+
+    cursor: pointer;
+
+    /* z-index: 1; */
+}
+
+.container .header header nav .btn button #h2 {
+    position: static;
+    width: 96px;
+    height: 15px;
+    left: 38px;
+    top: 11px;
+    
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 11px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    letter-spacing: 0.02em;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.container main #container .title {
+    position: absolute;
+    width: 471px;
+    height: 109px;
+    left: 445px;
+    top: 140px;
+
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 109px;
+    letter-spacing: -0.03em;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container main #container .subtitle {
+    position: absolute;
+    width: 548px;
+    height: 109px;
+    left: 406px;
+    top: 235px;
+    
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 109px;
+    letter-spacing: -0.03em;
+    
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button), -1px 1px 0 var(--button), 1px 1px 0 var(--button);
+}
+
+.container main #container .images #rocket-coffee-double img {
+    position: absolute;
+    width: 490px;
+    height: 520px;
+    left: 435px;
+    top: 350px;
+}
+
+.container main #container .images #beans-right {
+    position: absolute;
+    width: 104.2px;
+    height: 144.72px;
+    left: 891.9px;
+    top: 551.54px;
+    
+    transform: matrix(0.73, 0.68, 0.68, -0.73, 0, 0);
+}
+
+.container main #container .images #beans-left {
+    position: absolute;
+    width: 164.37px;
+    height: 72.11px;
+    left: 250px;
+    top: 650px;
+    transform: rotate(-169.47deg);
+}
+
+.container main #blur .blur-left img {
+    position: absolute;
+    width: 321px;
+    height: 321px;
+    left: -29px;
+    top: 495px;
+
+    background: #996DFF;
+    filter: blur(300px);
+}
+
+.container main #blur .blur-right img {
+    position: absolute;
+    width: 321px;
+    height: 321px;
+    left: 1127px;
+    top: -63px;
+    
+    background: #996DFF;
+    filter: blur(300px);
+    /* backdrop-filter: 5px; */
+}
