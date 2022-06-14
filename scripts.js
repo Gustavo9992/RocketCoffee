@@ -53,11 +53,3 @@ giftCards.addEventListener('mouseout', () => {
 stores.addEventListener('mouseout', () => {
     document.querySelector('#stores').style.color = "#FFFFFF"
 })
-
-// const button = document.querySelector('#button')
-
-// button.addEventListener('click', () => {
-//     document.querySelector('#button').onclick = () => {
-        
-//     }
-// })
